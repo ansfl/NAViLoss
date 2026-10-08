@@ -58,6 +58,66 @@ $$
 where both residual terms use the proposed bounded robust formulation with
 measurement uncertainty.
 
+
+Specifically, NAViLoss is defined as:
+
+$$
+\mathcal{L}_{\mathrm{NAVi}}
+=
+\mathcal{L}_v
++
+\lambda_b
+\mathcal{L}_b.
+$$
+
+where
+
+$$
+\mathcal{L}_v
+=
+\frac{1}{\lambda}
+\left(
+1-
+\frac{1}
+{
+1+
+\lambda
+\dfrac{\|\mathbf{r}_v\|^2}
+{\sigma_v^2+\varepsilon}
+}
+\right),
+$$
+
+and
+
+$$
+\mathcal{L}_b
+=
+\frac{1}{\lambda}
+\left(
+1-
+\frac{1}
+{
+1+
+\lambda
+\dfrac{\|\mathbf{r}_b\|^2}
+{\sigma_b^2+\varepsilon}
+}
+\right).
+$$
+
+Here, $\mathcal{L}_v$ is the velocity loss, $\mathcal{L}_b$ is the
+uncertainty-aware beam-consistency physics loss,
+$\mathbf{r}_v \in \mathcal{R}_v$ is the velocity residual,
+$\mathbf{r}_b \in \mathcal{R}_b$ is the beam-consistency residual,
+$\sigma_v \in \mathcal{U}_v$ is the velocity uncertainty,
+$\sigma_b \in \mathcal{U}_b$ is the beam uncertainty,
+$\lambda > 0$ is the robustness parameter, and
+$\lambda_b > 0$ is the beam-loss weighting coefficient.
+
+
+
+
 The formulation provides:
 
 - bounded loss values,
