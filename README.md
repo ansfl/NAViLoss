@@ -35,6 +35,33 @@ beam-outage conditions.
 
 ## NAViLoss
 
+### NAViLoss
+
+Test equation:
+
+$$
+x = y + z
+$$
+
+NAViLoss:
+
+$$
+\mathcal{L}_{\mathrm{NAVi}} = \mathcal{L}_v + \lambda_b \mathcal{L}_b
+$$
+
+Velocity:
+
+$$
+\mathcal{L}_v =
+\frac{1}{\lambda}
+\left(
+1-
+\frac{1}{1+\lambda\frac{\|\mathbf{r}_v\|^2}{\sigma_v^2+\varepsilon}}
+\right)
+$$
+
+
+
 The proposed objective operates in two residual domains:
 
 $$
