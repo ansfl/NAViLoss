@@ -60,7 +60,7 @@ beam-outage conditions.
 </p>
 
 <p align="center">
-  <em>Snapir Autonomous Underwater Vehicle used for the experiments.</em>
+  <em>Snapir Autonomous Underwater Vehicle (AUV) used for data collection during Mediterranean Sea trials.</em>
 </p>
 
 
