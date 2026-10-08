@@ -147,13 +147,9 @@ The formulation provides:
 
 ## Files
 
-- `main_NAViLoss.ipynb`
-  - Demonstration of the proposed NAViLoss objective.
 
-- `main_NAVi-DeepONet_V1.ipynb`
-  - NAVi-DeepONet V1 for full DVL beam measurements.
 
-- `main_NAVi-DeepONet_V2.ipynb`
+- `NAVi-DeepONet_V2.ipynb`
   - NAVi-DeepONet V2 for partial DVL beam measurements.
 
 
