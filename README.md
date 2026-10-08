@@ -17,15 +17,7 @@ robust AUV velocity estimation under noisy measurements and partial DVL
 beam-outage conditions.
 
 
-## Framework Overview
 
-<p align="center">
-  <img src="figures/Navi-Deeponet.png" width="900">
-</p>
-
-<p align="center">
-  <em>Overview of the proposed NAViLoss framework.</em>
-</p>
 
 
 ## Key Contributions
@@ -41,6 +33,39 @@ beam-outage conditions.
 4. Improved velocity-estimation performance under noisy and degraded
    DVL measurements.
 
+## NAViLoss
+
+The proposed objective operates in two residual domains:
+
+\[
+r_v = \hat{\mathbf{v}}-\mathbf{v},
+\]
+
+and
+
+\[
+r_b = \mathbf{H}\hat{\mathbf{v}}-\mathbf{b}.
+\]
+
+The total NAViLoss is defined as
+
+\[
+\mathcal{L}_{\mathrm{NAVi}}
+=
+\mathcal{L}_v+
+\lambda_b\mathcal{L}_b,
+\]
+
+where both residual terms use the proposed bounded robust formulation with
+measurement uncertainty.
+
+The formulation provides:
+
+- bounded loss values,
+- quadratic behavior for small residuals,
+- diminishing influence of large residuals,
+- uncertainty-aware residual attenuation, and
+- simultaneous velocity and DVL beam consistency.
 
 ## NAVi-DeepONet
 
