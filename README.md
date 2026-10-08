@@ -54,7 +54,7 @@ Specifically, the total NAViLoss is defined as:
 
 $$
 \mathcal{L}_{\mathrm{NAVi}}
-=
+= 
 \mathcal{L}_v
 +
 \lambda_b\mathcal{L}_b.
