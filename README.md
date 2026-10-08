@@ -56,7 +56,7 @@ beam-outage conditions.
 ## Experimental Platform
 
 <p align="center">
-  <img src="figures/snapir_auv.png" width="700">
+  <img src="[figures/snapir_auv.png](https://github.com/ansfl/DVL-DeepONet/blob/main/figures/snapir_auv.png)" width="700">
 </p>
 
 <p align="center">
