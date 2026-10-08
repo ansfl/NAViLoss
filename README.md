@@ -45,7 +45,7 @@ beam-outage conditions.
 ## NAVi-DeepONet
 
 <p align="center">
-  <img src="figures/NAVi_DeepONet.png" width="900">
+  <img src="[figures/NAVi_DeepONet.png](https://github.com/ansfl/DVL-DeepONet/blob/main/figures/snapir_auv.png)" width="900">
 </p>
 
 <p align="center">
