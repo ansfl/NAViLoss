@@ -37,25 +37,24 @@ beam-outage conditions.
 
 The proposed objective operates in two residual domains:
 
-\[
+$$
 r_v = \hat{\mathbf{v}}-\mathbf{v},
-\]
+$$
 
 and
 
-\[
+$$
 r_b = \mathbf{H}\hat{\mathbf{v}}-\mathbf{b}.
-\]
+$$
 
 The total NAViLoss is defined as
 
-\[
+$$
 \mathcal{L}_{\mathrm{NAVi}}
 =
 \mathcal{L}_v+
-\lambda_b\mathcal{L}_b,
-\]
-
+\lambda_b\mathcal{L}_b.
+$$
 where both residual terms use the proposed bounded robust formulation with
 measurement uncertainty.
 
