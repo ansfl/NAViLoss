@@ -52,28 +52,13 @@ measurement uncertainty.
 
 Specifically, the total NAViLoss is defined as:
 
-# Math Test
 
 $$
 \mathcal{L}_{\mathrm{NAVi}}
 =
 \mathcal{L}_v
 +
-\lambda_b\mathcal{L}_b
-$$
-
-$$
-\mathcal{L}_{\mathrm{NAVi}}
-=
-\mathcal{L}_v+\lambda_b\mathcal{L}_b
-$$
-
-$$
-\mathcal{L}_{\mathrm{NAVi}}
-= 
-\mathcal{L}_v
-+
-\lambda_b\mathcal{L}_b.
+\lambda_b \mathcal{L}_b
 $$
 
 where
@@ -88,10 +73,10 @@ $$
 {
 1+
 \lambda
-\dfrac{\|\mathbf{r}_v\|^2}
+\frac{\|\mathbf{r}_v\|^2}
 {\sigma_v^2+\varepsilon}
 }
-\right),
+\right)
 $$
 
 and
@@ -106,10 +91,10 @@ $$
 {
 1+
 \lambda
-\dfrac{\|\mathbf{r}_b\|^2}
+\frac{\|\mathbf{r}_b\|^2}
 {\sigma_b^2+\varepsilon}
 }
-\right).
+\right)
 $$
 
 Here, $\mathcal{L}_v$ is the velocity loss, $\mathcal{L}_b$ is the
