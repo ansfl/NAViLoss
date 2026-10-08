@@ -20,7 +20,7 @@ beam-outage conditions.
 ## Framework Overview
 
 <p align="center">
-  <img src="figures/NAViLoss.png" width="900">
+  <img src="figures/Navi-Deeponet.png" width="900">
 </p>
 
 <p align="center">
