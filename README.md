@@ -50,6 +50,54 @@ $$
 Both residual terms use the proposed bounded robust formulation with
 measurement uncertainty.
 
+
+Specifically, the total NAViLoss is defined as:
+
+$$
+\mathcal{L}_{\mathrm{NAVi}}
+=
+\mathcal{L}_v
++
+\lambda_b \mathcal{L}_b
+$$
+
+where
+
+$$
+\mathcal{L}_v
+=
+\frac{1}{\lambda}
+\left(
+1-
+\frac{1}
+{
+1+
+\lambda
+\frac{\|\mathbf{r}_v\|^2}
+{\sigma_v^2+\varepsilon}
+}
+\right)
+$$
+
+and
+
+$$
+\mathcal{L}_b
+=
+\frac{1}{\lambda}
+\left(
+1-
+\frac{1}
+{
+1+
+\lambda
+\frac{\|\mathbf{r}_b\|^2}
+{\sigma_b^2+\varepsilon}
+}
+\right)
+$$
+
+
 Specifically, the total NAViLoss is defined as:
 
 
